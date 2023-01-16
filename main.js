@@ -47,6 +47,7 @@ const YoutubeApiConnect = {
                 async function consoleFunction(){
                     await console.log(`https://www.youtube.com/watch?v=${videoId} have ${result.items[0]["statistics"].viewCount} Views`)
                 }
+                // filter viewers
                 if(result.items[0]["statistics"].viewCount > 40000){
                     consoleFunction()
                 };
