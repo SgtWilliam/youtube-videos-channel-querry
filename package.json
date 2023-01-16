@@ -1,0 +1,7 @@
+{
+  "name": "YoutubeVideosChannesQuerry",
+  "version": "1.0.0",
+  "dependencies": {
+    "youtube-node": "^1.3.3"
+  }
+}
